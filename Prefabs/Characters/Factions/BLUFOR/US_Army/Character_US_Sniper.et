@@ -1,0 +1,78 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{11625C065C1F1116}Prefabs/Weapons/Rifles/G28/Rifle_G28_BLK.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{144F85C6489875B8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_Coy_Peltor_CHMA.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{9EADEC45E5F0A648}Prefabs/Characters/Uniforms/Shirt_CryeG3/Shirt_CryeG3_Black.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light_CHMA.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4102BE377BBA65C3}Prefabs/Characters/Uniforms/Pants_CryeG3/Pants_CryeG3_Black.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{A86A0980460A2D85}Prefabs/Characters/Footwear/Boots_Faradey_1085/Boots_Faradey_1085_Black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{652A691C3404B99C}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_tako3.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{BC5B532C13965C35}Prefabs/Characters/Handwear/Gloves_Oakley/Gloves_Oakley_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+     TargetStorage "Jacket/Shirt_CryeG3_Black.et"
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/Pouch1/Pouch_PCGEN3_takoPouch.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{913FBBB00EFF7F12}Prefabs/Weapons/Magazines/762x51_G28_20rnd/Magazine_762x51_G28_20rnd_Tracer_M62.et" "{913FBBB00EFF7F12}Prefabs/Weapons/Magazines/762x51_G28_20rnd/Magazine_762x51_G28_20rnd_Tracer_M62.et"
+     }
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/pouch2/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{913FBBB00EFF7F12}Prefabs/Weapons/Magazines/762x51_G28_20rnd/Magazine_762x51_G28_20rnd_Tracer_M62.et" "{913FBBB00EFF7F12}Prefabs/Weapons/Magazines/762x51_G28_20rnd/Magazine_762x51_G28_20rnd_Tracer_M62.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5538C29D4709645E}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/pouch3/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{913FBBB00EFF7F12}Prefabs/Weapons/Magazines/762x51_G28_20rnd/Magazine_762x51_G28_20rnd_Tracer_M62.et" "{913FBBB00EFF7F12}Prefabs/Weapons/Magazines/762x51_G28_20rnd/Magazine_762x51_G28_20rnd_Tracer_M62.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684822A616F87CE5}" {
+     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684822A6585A832A}" {
+     TargetStorage "Vest/Vest_PCGen_II_tako3.et/tako2/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{913FBBB00EFF7F12}Prefabs/Weapons/Magazines/762x51_G28_20rnd/Magazine_762x51_G28_20rnd_Tracer_M62.et" "{913FBBB00EFF7F12}Prefabs/Weapons/Magazines/762x51_G28_20rnd/Magazine_762x51_G28_20rnd_Tracer_M62.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

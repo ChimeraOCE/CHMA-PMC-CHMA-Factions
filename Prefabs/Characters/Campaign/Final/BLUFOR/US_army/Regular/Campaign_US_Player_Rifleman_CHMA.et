@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_CHMA.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
+    }
+    ItemsInitConfigurationItem "{54A49B42D138207E}" {
+    }
+    ItemsInitConfigurationItem "{5538C040738A83D1}" {
+    }
+    ItemsInitConfigurationItem "{673234DCDB928D7C}" {
+    }
+    ItemsInitConfigurationItem "{67357BCEC995EA40}" {
+    }
+    ItemsInitConfigurationItem "{67357BCECA88668B}" {
+    }
+   }
+  }
+ }
+}

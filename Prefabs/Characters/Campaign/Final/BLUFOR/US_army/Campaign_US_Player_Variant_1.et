@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Player.et" {
+ ID "5242B7AE16596FB8"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{9EADEC45E5F0A648}Prefabs/Characters/Uniforms/Shirt_CryeG3/Shirt_CryeG3_Black.et"
+    }
+   }
+  }
+ }
+}

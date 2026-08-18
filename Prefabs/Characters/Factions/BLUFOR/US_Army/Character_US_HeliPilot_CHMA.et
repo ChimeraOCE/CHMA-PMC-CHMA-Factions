@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FD4F9F7CC2AF1386}Prefabs/Characters/HeadGear/AUS_Helmet_HGU-56P/AUS_Helmet_HGU56P_Shield_Black_BlueVisor.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{4E88FFC2F656D730}Prefabs/Characters/Uniforms/AUS_Pilot_US_Modern/AUS_Pilot_US_Modern.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+ }
+}

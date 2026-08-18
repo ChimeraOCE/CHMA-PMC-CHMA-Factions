@@ -1,0 +1,22 @@
+GameProject {
+ ID "CHMAFactions"
+ GUID "671C868B9BD8B426"
+ TITLE "CHMA Factions"
+ Dependencies {
+  "58D0FB3206B6F859" "66EA2A87BED6D8EA" "66DE285BB1BA0214"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
