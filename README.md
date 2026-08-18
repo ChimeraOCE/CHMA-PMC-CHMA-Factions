@@ -6,49 +6,49 @@ This addon defines the playable Chimera PMC faction and its associated character
 
 The project is used to bring CHMA's equipment and role-specific characters together into a faction that can be selected and used within Arma Reforger scenarios.
 
-Dependencies
+## Dependencies
 
-The following Arma Reforger addons are required for CHMA Factions:
+The following Arma Reforger addons are required for **CHMA Factions**:
 
-RHS - Content Pack 01
-RHS - Status Quo
-RIS Laser Attachments
-M249 Scope Rails
-Zeliks Character
-Civilian Clothing Mod
-WCS_Clothing
-WCS_NATO
-WCS_RU
-WCS_Attachments
-WCS_Armbands
-TacticalAnimationOverhaul TEST
-Chungus Shotguns
-AUS_CORE
-WCS_Armaments
-WCS_Scopes
-TT Radio Backpacks
-WCS_Sounds
-Attachment Framework
-B59 - FAL
-EF88 By Tonnie
-ACE Medical Core Dev
-B59 Attachments
-ACE Captives Dev
-ACE Core Dev
-ACE Medical Circulation Dev
-WCS_Weapons
-WCS_Clothing_Assets
-Medical Accessories
-CHMA Arsenal
-CHMA Patches
-B59 - SoundFX
-CHMA Flags
-Attachment Framework-Core
-B59 - BravoCore
-WCS_Weapon_Scripts
-RHS - Content Pack 02
+* **RHS - Content Pack 01**
+* **RHS - Status Quo**
+* **RIS Laser Attachments**
+* **M249 Scope Rails**
+* **Zeliks Character**
+* **Civilian Clothing Mod**
+* **WCS_Clothing**
+* **WCS_NATO**
+* **WCS_RU**
+* **WCS_Attachments**
+* **WCS_Armbands**
+* **TacticalAnimationOverhaul TEST**
+* **Chungus Shotguns**
+* **AUS_CORE**
+* **WCS_Armaments**
+* **WCS_Scopes**
+* **TT Radio Backpacks**
+* **WCS_Sounds**
+* **Attachment Framework**
+* **B59 - FAL**
+* **EF88 By Tonnie**
+* **ACE Medical Core Dev**
+* **B59 Attachments**
+* **ACE Captives Dev**
+* **ACE Core Dev**
+* **ACE Medical Circulation Dev**
+* **WCS_Weapons**
+* **WCS_Clothing_Assets**
+* **Medical Accessories**
+* **CHMA Arsenal**
+* **CHMA Patches**
+* **B59 - SoundFX**
+* **CHMA Flags**
+* **Attachment Framework-Core**
+* **B59 - BravoCore**
+* **WCS_Weapon_Scripts**
+* **RHS - Content Pack 02**
 
-These dependencies must be installed and enabled when opening, modifying or testing the project in Arma Reforger Workbench.
+These dependencies must be installed and enabled when opening, modifying or testing the project in **Arma Reforger Workbench**.
 
 The faction and character prefabs reference resources supplied by these addons. Removing or changing a dependency without first replacing all affected references can result in missing equipment, broken prefabs, missing resources or faction load failures.
 
