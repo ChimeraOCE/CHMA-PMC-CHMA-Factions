@@ -6,36 +6,53 @@ This addon defines the playable Chimera PMC faction and its associated character
 
 The project is used to bring CHMA's equipment and role-specific characters together into a faction that can be selected and used within Arma Reforger scenarios.
 
-## Dependencies
+Dependencies
 
-The following Arma Reforger addons are required:
+The following Arma Reforger addons are required for CHMA Factions:
 
-* **RHS - Content Pack 01**
-* **RHS - Status Quo**
-* **RHS - Content Pack 02**
-* **GMFX - Game Master Effects**
-* **Explosive mod**
-* **M18 Claymore - ACE Explosives Compatibility Patch**
-* **Flair's Tactical Gear**
-* **Powerful Flashlights**
-* **Wp Weapon pack**
-* **Dubious Tactical Overhaul - Extended 3.3**
-* **Zeliks Character**
-* **CHMA Vehicles**
-* **CHMA Gear Pack**
-* **CHMA PMC Patches**
-* **WP - Vanilla Replacement**
-* **ACE Reloaded**
-* **ACE_EX**
-* **Tactical Flava**
-* **Sierra Golf Weapons**
-* **Blackheart Equipment**
-* **[Blacklist]ZeliksRevolution**
-* **No Ghillie for nVision**
+RHS - Content Pack 01
+RHS - Status Quo
+RIS Laser Attachments
+M249 Scope Rails
+Zeliks Character
+Civilian Clothing Mod
+WCS_Clothing
+WCS_NATO
+WCS_RU
+WCS_Attachments
+WCS_Armbands
+TacticalAnimationOverhaul TEST
+Chungus Shotguns
+AUS_CORE
+WCS_Armaments
+WCS_Scopes
+TT Radio Backpacks
+WCS_Sounds
+Attachment Framework
+B59 - FAL
+EF88 By Tonnie
+ACE Medical Core Dev
+B59 Attachments
+ACE Captives Dev
+ACE Core Dev
+ACE Medical Circulation Dev
+WCS_Weapons
+WCS_Clothing_Assets
+Medical Accessories
+CHMA Arsenal
+CHMA Patches
+B59 - SoundFX
+CHMA Flags
+Attachment Framework-Core
+B59 - BravoCore
+WCS_Weapon_Scripts
+RHS - Content Pack 02
 
-These dependencies must be installed and enabled in Arma Reforger Workbench when developing, modifying or testing the addon.
+These dependencies must be installed and enabled when opening, modifying or testing the project in Arma Reforger Workbench.
 
-Because the faction prefabs reference equipment and resources from several external projects, removing a dependency without first removing or replacing the affected references may cause broken prefabs, missing resources or failure to load the faction correctly.
+The faction and character prefabs reference resources supplied by these addons. Removing or changing a dependency without first replacing all affected references can result in missing equipment, broken prefabs, missing resources or faction load failures.
+
+When adding a new dependency, ensure it is actually referenced by the CHMA Factions project and add it to this list. When removing a dependency, check the entire project for references to that addon before removing it.
 
 ## Project Structure
 
