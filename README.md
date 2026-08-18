@@ -8,51 +8,71 @@ The project is used to bring CHMA's equipment and role-specific characters toget
 
 ## Dependencies
 
-The following Arma Reforger addons are required for **CHMA Factions**:
+CHMA Factions requires the following Arma Reforger addons:
 
-* **RHS - Content Pack 01**
-* **RHS - Status Quo**
-* **RIS Laser Attachments**
-* **M249 Scope Rails**
-* **Zeliks Character**
-* **Civilian Clothing Mod**
-* **WCS_Clothing**
-* **WCS_NATO**
-* **WCS_RU**
-* **WCS_Attachments**
-* **WCS_Armbands**
-* **TacticalAnimationOverhaul TEST**
-* **Chungus Shotguns**
-* **AUS_CORE**
-* **WCS_Armaments**
-* **WCS_Scopes**
-* **TT Radio Backpacks**
-* **WCS_Sounds**
-* **Attachment Framework**
-* **B59 - FAL**
-* **EF88 By Tonnie**
-* **ACE Medical Core Dev**
-* **B59 Attachments**
-* **ACE Captives Dev**
-* **ACE Core Dev**
-* **ACE Medical Circulation Dev**
-* **WCS_Weapons**
-* **WCS_Clothing_Assets**
-* **Medical Accessories**
-* **CHMA Arsenal**
-* **CHMA Patches**
-* **B59 - SoundFX**
-* **CHMA Flags**
-* **Attachment Framework-Core**
-* **B59 - BravoCore**
-* **WCS_Weapon_Scripts**
-* **RHS - Content Pack 02**
+### RHS
 
-These dependencies must be installed and enabled when opening, modifying or testing the project in **Arma Reforger Workbench**.
+* `RHS - Content Pack 01`
+* `RHS - Status Quo`
+* `RHS - Content Pack 02`
 
-The faction and character prefabs reference resources supplied by these addons. Removing or changing a dependency without first replacing all affected references can result in missing equipment, broken prefabs, missing resources or faction load failures.
+### WCS
 
-When adding a new dependency, ensure it is actually referenced by the CHMA Factions project and add it to this list. When removing a dependency, check the entire project for references to that addon before removing it.
+* `WCS_Clothing`
+* `WCS_NATO`
+* `WCS_RU`
+* `WCS_Attachments`
+* `WCS_Armbands`
+* `WCS_Armaments`
+* `WCS_Scopes`
+* `WCS_Sounds`
+* `WCS_Weapons`
+* `WCS_Clothing_Assets`
+* `WCS_Weapon_Scripts`
+
+### ACE
+
+* `ACE Core Dev`
+* `ACE Medical Core Dev`
+* `ACE Medical Circulation Dev`
+* `ACE Captives Dev`
+
+### B59
+
+* `B59 - FAL`
+* `B59 Attachments`
+* `B59 - SoundFX`
+* `B59 - BravoCore`
+
+### CHMA
+
+* `CHMA Arsenal`
+* `CHMA Patches`
+* `CHMA Flags`
+
+### Attachment Framework
+
+* `Attachment Framework`
+* `Attachment Framework-Core`
+
+### Weapons, Equipment & Character Addons
+
+* `RIS Laser Attachments`
+* `M249 Scope Rails`
+* `Zeliks Character`
+* `Civilian Clothing Mod`
+* `TacticalAnimationOverhaul TEST`
+* `Chungus Shotguns`
+* `AUS_CORE`
+* `TT Radio Backpacks`
+* `EF88 By Tonnie`
+* `Medical Accessories`
+
+All dependencies must be installed and enabled when opening, modifying or testing **CHMA Factions** in Arma Reforger Workbench.
+
+The faction and character prefabs reference resources supplied by these addons. Removing a dependency without first removing or replacing its referenced resources can result in broken prefabs, missing equipment or faction load errors.
+
+When adding a new dependency, add it to this README. Before removing a dependency, confirm that the project no longer contains references to resources provided by that addon.
 
 ## Project Structure
 
